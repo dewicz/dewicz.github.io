@@ -17,7 +17,7 @@
   flex: 1;
 }
 
-.a-card.bg {
+.a-card {
   clip-path: polygon(0 100%, 0 0, 100% 0);
   background-color: #5e6cad;
   width: 100%;
@@ -74,7 +74,6 @@
     .a{
       flex-direction: column;
       text-align: center;
-      margin-top: 50px;
     }
 
     .a-left {
@@ -82,11 +81,6 @@
     }
 
     .a-card {
-      height: 30vh;
-    }
-
-    .a-card.bg, .a-award {
-      display: none;
     }
 
     .a-right{
@@ -94,30 +88,4 @@
     }
 }
 
-@media screen and (max-width: 480px) {
-  .a {
-      flex-direction: column;
-      text-align: center;
-      margin-top: 50px;
-  }
-
-  .a-left {
-    width: 100%;
-
-  }
-
-  .a-card {
-    height: 30vh;
-  }
-
-  .a-card.bg {
-    display: none;
-  }
-
-  .a-right {
-    padding: 20px;
-  }
-
-
-}
 
